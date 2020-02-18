@@ -30,8 +30,7 @@ func getArea(s shape) float64 {
 }
 
 func main() {
-	circle := circle{0, 0, 5}
-	rectangle := rectangle{10, 5}
-	// fmt.Println(getArea(circle), getArea(rectangle))
+	circle := circle{0, 0, 10}
+	rectangle := rectangle{10, 20}
 	fmt.Println(circle.area(), rectangle.area())
 }
